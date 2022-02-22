@@ -10,7 +10,6 @@ from tensorflow import keras
 from keras import layers 
 import tensorflow_probability as tfp
 
-
 class network(keras.Model):
     def __init__(self, input_dims, output_dims, custom_model=False,
             checkpnt_file=None):
