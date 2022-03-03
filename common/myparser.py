@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser(prog="MARL-PZOO")
+parser = argparse.ArgumentParser(description="Evaluate and test scripts")
 parser.add_argument("--env", default="LunarLander-v2")
 parser.add_argument("--lr", type=float, default=0.005)
 parser.add_argument("--batch_size", type=int, default=64)
