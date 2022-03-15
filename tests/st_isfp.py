@@ -64,7 +64,8 @@ if __name__ == "__main__":
             if done:
                 env.step(None)
                 continue
-            
+             
+            breakpoint()
             action = all_agents[agent].get_action(observation)
             env.step(int(action))
             all_rewards[agent]+=reward
